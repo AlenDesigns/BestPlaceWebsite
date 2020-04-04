@@ -351,7 +351,7 @@ input,
 select,
 optgroup,
 textarea {
-  color: #404040;
+  color: black;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-size: 1rem;
@@ -687,11 +687,28 @@ a {
   margin: 0;
   padding: 0; }
   .main-navigation .menu .menu-item {
-    display: inline-block; }
+    display: inline-block;
+    padding: 0 1rem; }
     .main-navigation .menu .menu-item > a {
-      padding: 0 10px;
+      position: relative;
       font-weight: 200;
-      font-size: 1.125rem; }
+      font-size: 1.125rem;
+      text-decoration: none;
+      color: black;
+      transition: all 0.3s ease-in-out; }
+      .main-navigation .menu .menu-item > a:hover {
+        opacity: 0.75; }
+        .main-navigation .menu .menu-item > a:hover:after {
+          width: 100%; }
+      .main-navigation .menu .menu-item > a:after {
+        content: '';
+        transition: all 0.3s ease-in-out;
+        width: 0;
+        height: 1.5px;
+        background: black;
+        position: absolute;
+        bottom: -5px;
+        left: 0; }
 
 /*--------------------------------------------------------------
 # Accessibility

@@ -15,7 +15,7 @@ $color__text-input-focus: #111;
 $color__link: $color__brand-primary;
 $color__link-visited: $color__brand-secondary;
 $color__link-hover: darken($color__brand-primary, 10%);
-$color__text-main: #404040;
+$color__text-main: darken($color__brand-primary, 40%);
 
 $color__border-button: #ccc #ccc #bbb;
 $color__border-button-hover: #ccc #bbb #aaa;
