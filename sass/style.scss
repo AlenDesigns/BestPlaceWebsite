@@ -32,7 +32,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	## Menus
 # Accessibility
 # Alignments
-# Clearings
 # Widgets
 # Content
 	## Posts and pages
@@ -66,6 +65,21 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 @import "forms/forms";
 
 /*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+@import "layout/header";
+
+/*--------------------------------------------------------------
+# Main Content
+--------------------------------------------------------------*/
+@import "layout/main";
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+@import "layout/footer";
+
+/*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
 @import "navigation/navigation";
@@ -79,11 +93,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Alignments
 --------------------------------------------------------------*/
 @import "modules/alignments";
-
-/*--------------------------------------------------------------
-# Clearings
---------------------------------------------------------------*/
-@import "modules/clearings";
 
 /*--------------------------------------------------------------
 # Widgets
@@ -104,4 +113,9 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Media
 --------------------------------------------------------------*/
 @import "media/media";
+
+/*--------------------------------------------------------------
+# Grid
+--------------------------------------------------------------*/
+@import "grid/grid.scss";
  

@@ -1,0 +1,14 @@
+.site-footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: $color__brand-primary;
+    color: white;
+
+    .site-info {
+        @extend .container;
+    }
+
+    a {
+        color: darken(white, 15%);
+    }
+}
