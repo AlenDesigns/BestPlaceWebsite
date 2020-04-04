@@ -1,0 +1,28 @@
+{
+  "name": "BestPlaceWebsite",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp watch-sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlenDesigns/BestPlaceWebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlenDesigns/BestPlaceWebsite/issues"
+  },
+  "homepage": "https://github.com/AlenDesigns/BestPlaceWebsite#readme",
+  "dependencies": {
+    "gulp-cli": "^2.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}
